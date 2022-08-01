@@ -19,8 +19,7 @@ class AuthServiceClient implements AuthServiceClientInterface
         $opts = [
             "http" => [
                 "method" => "GET",
-                "header" => "Accept-language: en\r\n" .
-                    "Authorization: $token\r\n"
+                "header" => "Authorization: $token\r\n"
             ]
         ];
 
