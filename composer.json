@@ -1,0 +1,17 @@
+{
+  "type": "project",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "name": "staspiv/sw-auth-service-client",
+  "description": "",
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SmartWallet\\AuthClient\\": "src/"
+    }
+  }
+}
