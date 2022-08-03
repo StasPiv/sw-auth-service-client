@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace SmartWaller\AuthClient;
+namespace SmartWallet\AuthClient;
 
 interface AuthServiceClientInterface
 {
